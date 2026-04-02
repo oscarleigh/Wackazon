@@ -49,7 +49,7 @@ struct RegisterView: View {
                 Button() {
                     viewModel.goToHomePage()
                 } label : {
-                    Text("Register")
+                    Text("Create Account")
                         .frame(maxWidth: .infinity)
                 }
                 .buttonStyle(.glassProminent)

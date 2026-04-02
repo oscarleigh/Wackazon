@@ -50,6 +50,9 @@ struct OnboardingView: View {
             .navigationDestination(isPresented: $viewModel.navigateToRegister) {
                 RegisterView()
             }
+            .navigationDestination(isPresented: $viewModel.navigateToHomePage) {
+                HomePageView()
+            }
         }
     }
 }
