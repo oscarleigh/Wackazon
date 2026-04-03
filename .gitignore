@@ -1,0 +1,26 @@
+# === macOS ===
+.DS_Store
+*.swp
+*~
+
+# === Xcode ===
+xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# === Swift ===
+.swiftpm/
+Package.resolved
+
+# === Go ===
+Server/data/wackazon.db
+Server/data/wackazon.db-shm
+Server/data/wackazon.db-wal
+
+# === IDE ===
+.idea/
+.vscode/
